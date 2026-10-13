@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>previsão do tempo com ia</title>
+  </head>
+  <body>
+    <div class="caixa-maior">
+      <input class="input-cidade" placeholder="Digite o nome da cidade" />
+
+      <button class="botao" onclick="detectaVoz()">
+        <img
+          src="img/microfone.svg"
+          alt="microfone"
+          style="filter: invert(1)"
+        />
+      </button>
+
+      <button class="botao" onclick="cliqueiNoBotao()">
+        <img src="img/lupa.svg" alt="lupa" style="filter: invert(1)" />
+      </button>
+
+      <div class="caixa-media"></div>
+      
+    </div>
+  </body>
+</html>
